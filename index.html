@@ -1,71 +1,92 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html> <!-- Informa que o documento é HTML5 -->
+<html lang="pt-br"> <!-- Define o idioma da página como português do Brasil -->
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Loja de Móveis de Madeira</title>
+  <meta charset="UTF-8" /> <!-- Suporte a acentuação e caracteres especiais -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Faz o site se ajustar a diferentes tamanhos de tela (responsivo) -->
+  <title>Loja de Móveis de Madeira</title> <!-- Título da aba do navegador -->
+
+  <!-- Importa o arquivo de estilos CSS externo -->
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+
+<body> <!-- Início do conteúdo visível da página -->
+
+  <!-- Cabeçalho com logo e menu de navegação -->
   <header>
-    <div class="container">
-      <h1>🌲 Madeira Fina</h1>
-      <nav>
+    <div class="container"> <!-- Container para alinhar conteúdo -->
+      <h1>🌲 Sumale Móveis</h1> <!-- Nome/logo da empresa -->
+      <nav> <!-- Menu de navegação -->
         <ul>
-          <li><a href="#produtos">Produtos</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#contato">Contato</a></li>
+          <li><a href="#produtos">Produtos</a></li> <!-- Link que leva para a seção de produtos -->
+          <li><a href="#sobre">Sobre</a></li> <!-- Link que leva para a seção "Sobre Nós" -->
+          <li><a href="#contato">Contato</a></li> <!-- Link que leva para o rodapé com informações de contato -->
         </ul>
       </nav>
     </div>
   </header>
 
-  <section class="banner">
+  <!-- Banner com slogan e botão -->
+  <section class="banner"> <!-- Seção do banner principal -->
     <div class="container">
-      <h2>Móveis artesanais feitos com amor e madeira de qualidade</h2>
-      <a href="#produtos" class="btn">Ver Catálogo</a>
+      <h2>Móveis artesanais e madeira de qualidade</h2> <!-- Slogan do site -->
+      <a href="#produtos" class="btn">Ver Catálogo</a> <!-- Botão que leva à seção de produtos -->
     </div>
   </section>
 
-  <section id="produtos" class="produtos">
+  <!-- Seção dos produtos à venda -->
+  <section id="produtos" class="produtos"> <!-- Seção identificada como "produtos" -->
     <div class="container">
-      <h2>Nossos Produtos</h2>
-      <div class="produtos-grid">
+      <h2>Nossos Produtos</h2> <!-- Título da seção -->
+      <div class="produtos-grid"> <!-- Grade de produtos com layout em blocos -->
+        
+        <!-- Produto 1 -->
         <div class="card">
-          <img src="https://via.placeholder.com/300x200" alt="Mesa de madeira" />
-          <h3>Mesa Rústica</h3>
-          <p>R$ 1.200,00</p>
+          <img src="https://via.placeholder.com/300x200" alt="Mesa de madeira" /> <!-- Imagem do produto -->
+          <h3>Mesa Rústica</h3> <!-- Nome do produto -->
+          <p>R$ 1.200,00</p> <!-- Preço -->
         </div>
+
+        <!-- Produto 2 -->
         <div class="card">
           <img src="https://via.placeholder.com/300x200" alt="Cadeira de madeira" />
           <h3>Cadeira de Carvalho</h3>
           <p>R$ 450,00</p>
         </div>
+
+        <!-- Produto 3 -->
         <div class="card">
           <img src="https://via.placeholder.com/300x200" alt="Estante" />
           <h3>Estante Clássica</h3>
           <p>R$ 980,00</p>
         </div>
+
       </div>
     </div>
   </section>
 
+  <!-- Seção com a descrição da empresa -->
   <section id="sobre" class="sobre">
     <div class="container">
       <h2>Sobre Nós</h2>
-      <p>Somos artesãos apaixonados por madeira, criando móveis duráveis, elegantes e sustentáveis. Cada peça é feita à mão, com dedicação e respeito à natureza.</p>
+      <p>
+        Somos artesãos apaixonados por madeira, criando móveis duráveis, elegantes e sustentáveis.
+        Cada peça é feita à mão, com dedicação e respeito à natureza.
+      </p>
     </div>
   </section>
 
+  <!-- Rodapé com informações de contato e redes sociais -->
   <footer id="contato">
     <div class="container">
-      <p>&copy; 2025 Madeira Fina - Todos os direitos reservados</p>
-      <p>Contato: contato@madeirafina.com | WhatsApp: (11) 91234-5678</p>
+      <p>&copy; 2025 Sumale Móveis - Todos os direitos reservados</p> <!-- Direitos autorais -->
+      <p>Contato: sumalemoveis@gmail.com | WhatsApp: (16) 9 9234-5678</p> <!-- Informações de contato -->
       <div class="social">
-        <a href="#">Instagram</a> |
-        <a href="#">Facebook</a>
+        <a href="#">Instagram</a> | <!-- Link para o Instagram -->
+        <a href="#">Facebook</a> <!-- Link para o Facebook -->
       </div>
     </div>
   </footer>
+
 </body>
 </html>
